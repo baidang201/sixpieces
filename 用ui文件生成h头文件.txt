@@ -1,0 +1,14 @@
+windows的qt里有个uic.exe
+qt4以下
+uic xxx.ui -o xxx.h
+uic xxx.ui -i xxx.h -o xxx.cpp
+qt4
+uic xxx.ui -o xxx.h
+把UIC.exe和你要转换的xxx.ui文件拷贝到同一目录。
+开始菜单，运行CMD
+进入uic.exe和xxx.ui的目录，运行以下命令：
+uic xxx.ui -o xxx.h 生成.h文件
+uic xxx.ui -i xxx.h -o xxx.cpp 生成.cpp文件
+//////////////////////////////////////////////////
+uic startwidget.ui -o ui_startwidget.h
+uic mainwindow.ui -o ui_mainwindow.h
